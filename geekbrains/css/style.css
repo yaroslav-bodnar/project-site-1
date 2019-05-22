@@ -1,3 +1,57 @@
-h1 {
-	color: green;
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.container {
+	background: #C2E8F9;
+	min-height: 100%;
+	width: 50%;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+
+header {
+	position: fixed;
+	height: 50px;
+	margin-bottom: 50px;
+	z-index: 2;
+}
+
+.logo {
+	float: left;
+	margin-left: 40px;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+}
+
+.menu {}
+
+.submenu {}
+
+
+main {
+	padding: 60px 10px;
+}
+
+
+footer {
+	position: absolute;
+	background: #88B0F9;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+}
+
+footer p {
+	margin: 15px;
 }
